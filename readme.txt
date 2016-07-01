@@ -1,6 +1,5 @@
 1)dataset.txt has the stored data or the training data of the model
-2)load.py trains the model and saves it in the file dictionary.json
-3)testing.py has the complete implementation of real time words
+2)testing.py will first load the model and then the complete implementation of real time words
 
 The data model I have followed is
 -> I will pair up 3 words of a list
@@ -47,7 +46,7 @@ this is the work progress yet.
 
 
 Doubts and Mistakes:
-1) what to do In case of same frequency? i think it will choose the one which comes first as i am using the max() function.
+
 2) "('love', 'to', 'code')": {"*****": 1}, i am marking the end of file using '*****' so if we ever type 'love to code' as input it will give prediction '*****'
 
 
